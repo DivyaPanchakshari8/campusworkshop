@@ -10,6 +10,6 @@ postgres = psycopg2.connect(
         user="todol_user",
         password="7XlVW7y9yTgelUaAmzYx2DzyE7ciUkQL")
 # To prevent from using a blueprint, we use a cyclic import
-# This also means that we need to place this import here
+# This also means that we need to place this import heregit 
 # pylint: disable=cyclic-import, wrong-import-position
 from app import routes
